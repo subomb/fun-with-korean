@@ -1,6 +1,6 @@
 # Fun With Korean
 
-Welcome to **Fun With Korean!** This project is a learning platform designed to help users learn the Korean language and explore Korean culture. The platform includes features such as lessons for different proficiency levels and a translator.
+Welcome to **Fun With Korean!** This project is a learning platform designed to help users learn the Korean language and explore Korean culture. The platform includes lessons for different proficiency levels and a translator.
 
 ## Table of Contents
 - [Features](#features)
@@ -13,17 +13,20 @@ Welcome to **Fun With Korean!** This project is a learning platform designed to 
 
 ## Features
 
-- **Lessons**: Structured lessons for beginner, intermediate, and advanced learners.
+- **Lessons**: Structured lessons organized by books (Book 1, Book 2, etc.) for different proficiency levels.
+- **Quizzes and Exercises**: Interactive quizzes and exercises with audio to enhance learning.
 - **Translator**: Translate text between English and Korean using the Google Translate API.
 - **User Authentication**: Secure login and registration using Firebase Authentication.
 - **Responsive Design**: Works on both desktop and mobile devices.
+- **Restricted Content**: Access to advanced lessons (Book 2 and beyond) is restricted to non-authenticated users.
+- **Navigation Improvements**: Lessons start at the top when navigating between them.
 
 ## Technologies Used
 
 - **Frontend**: React, Vite, CSS
 - **Backend**: Firebase (Authentication, Firestore)
 - **API**: Google Translate API via RapidAPI
-- **Hosting**: Firebase Hosting
+- **Hosting**: Netlify
 
 ## Installation
 
@@ -59,7 +62,7 @@ Usage
 
 *   Visit the home page to get started with Korean learning.
     
-*   Navigate to the Lessons page for structured lessons.
+*   Navigate to the Lessons page for structured lessons by books.
     
 *   Use the Translator page to translate text between English and Korean.
     
@@ -67,7 +70,7 @@ Usage
 
 Demo
 --------------------
-You can access the deployed application at [Fun With Korean](https://fun-with-korean.web.app)
+You can access the deployed application at [Fun With Korean](https://fun-with-korean.netlify.app)
 
 Here is a video walkthrough of the website to showcase the features and functionality. 
 
