@@ -1,0 +1,112 @@
+.translator-container {
+  padding: 2rem;
+  padding-top: 80px;
+}
+
+.translation-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  padding-right: 2rem;
+}
+
+.input-section, .output-section {
+  width: 48%;
+}
+
+.translator-container textarea {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 1rem;
+  margin-right: 0;
+  padding: 1rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-family: "Lato", sans-serif;
+  font-size: 1.5rem;
+  resize: none; 
+}
+
+.translate-tool {
+  display: flex;
+  gap: 1rem;
+}
+
+.translate-tool select {
+  background-color: #ffdd57;
+  cursor: pointer;
+}
+
+.translator-container button {
+  padding: 0.75rem 1.5rem;
+  background-color: #235391;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Cute Font", sans-serif;
+  font-size: 1.7rem;
+}
+
+.translator-container button:hover {
+  color: #ffdd57;
+}
+
+.translator-container select {
+  padding: 0.5rem;
+  border-radius: 4px;
+  font-family: "Cute Font", sans-serif;
+  font-size: 1.7rem;
+}
+
+.translation {
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  width: 100%;
+  height: 300px;
+}
+
+.translation h2 {
+  font-family: "Cute Font", sans-serif;
+  font-size: 2rem;
+}
+
+.translation p {
+  font-family: "Lato", sans-serif;
+  font-size: 1.5rem;
+}
+
+.blurred::after {
+  content: '';
+  position: fixed; /* Changed from absolute to fixed */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgb(248, 232, 232);
+  z-index: 1;
+  pointer-events: none;
+}
+
+@media (max-width: 768px) {
+  .translation-section {
+    flex-direction: column;
+  }
+
+  .input-section, .output-section {
+    width: 100%;
+  }
+
+  .translate-tool {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .translator-container button,
+  .translator-container select {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+}

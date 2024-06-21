@@ -1,0 +1,967 @@
+[
+  {
+    "id": 1,
+    "book": "Book 1",
+    "title": "✩ Introduction to Hangul ✩",
+    "hasSoundButton": false,
+    "content": [
+      {
+        "type": "text",
+        "value": "When learning the Korean language, one of the first steps is to learn the Korean alphabet. 한글 (Hangul, also spelled Hangeul) is one of the youngest alphabets in the world and is widely-respected by linguists for its logical construction."
+      },
+      {
+        "type": "text",
+        "value": "Hangul consists of 24 letters, 10 vowels and 14 consonants, and is relatively simple to learn. Unlike Chinese and Japanese characters that are logographic, Hangul can be sounded out phonetically. This makes reading and writing a lot easier!"
+      },
+      {
+        "type": "heading",
+        "value": "A brief history of Hangul"
+      },
+      {
+        "type": "text",
+        "value": "Hangul (meaning ‘Great Script’) was developed by King Sejong the Great, the fourth king of the Joseon period, in 1443. King Sejong wanted to establish an independent cultural identity for Korea through a unique writing system. With the help of a group of scholars, he created a simple alphabet of 28 letters (4 of which have since become obsolete) and proclaimed the Hunmin Jeong-eum (훈민정음, “the correct sounds for the instruction of the people”) in 1446."
+      },
+      {
+        "type": "text",
+        "value": "Before the introduction of Hangul, the dominant writing system in Korea was Hanja (漢字; 한자) which was adapted from Chinese characters. Hanja was mostly used by the ruling class and bureaucrats, which meant that literacy was out of reach for many ordinary Korean citizens."
+      },
+      {
+        "type": "text",
+        "value": "King Sejong’s invention of a logical, easy-to-master alphabet meant that more people could learn to read and write and the spread of information became much easier."
+      },
+      {
+        "type": "text",
+        "value": "This did not go down well with some bearded old men who saw Hanja as the only legitimate writing system. As you can imagine, keeping the majority of people illiterate was a great way to maintain the status quo."
+      },
+      {
+        "type": "text",
+        "value": "Since its inception, Hangul has been repressed on and off until Korea gained independence from Japanese colonial rule in 1945. "
+      },
+      {
+        "type": "text",
+        "value": "Today, Hangul is the official writing system of both South and North Korea (known as Chosŏn’gŭl there), although some language drift has occurred due to the long separation between the two countries. South Korea celebrates Hangul Day as a national holiday on October 9th. "
+      },
+      { 
+        "type": "heading",
+        "value": "How Hangul is written"
+      },
+      {
+        "type": "text",
+        "value": "Unlike English, where you write from left to right in a straight line, Hangul is written in syllabic blocks. This may sound complicated, but it is actually very logical."
+      },
+      {
+        "type": "text", 
+        "value": "Hangul characters are built by combining consonants and vowels."
+      },
+      {
+        "type": "list", 
+        "value": [
+          "We always start with a consonant, followed by a vowel.",
+          "Consonants and vowels cannot stand alone; they need to be combined.",
+          "Each letter has a specific stroke order."
+        ]
+      },
+      {
+        "type": "text", 
+        "value": "Hangul is made up of vertical and horizontal vowels. Vertical vowels are placed to the right of the consonant, while horizontal vowels are placed below the consonant."
+      },
+      {
+        "type": "image",
+        "src": "/assets/hangul-format1.png"
+      },
+      {
+        "type": "text",
+        "value": "Hangul characters do not always only consist of one vowel and one consonant. There are various different ways to combine consonants and vowels to form words. Let’s take a look at a few examples:"
+      },
+      {
+        "type": "image",
+        "src": "/assets/hangul-format2.png"
+      },
+      {
+        "type": "text",
+        "value": "The final consonant in the above examples are called ‘batchim’ (받침). You’ll notice from the examples on the right hand side, that there is also a double final consonant, called a ‘gyeobbatchim’ (겹받침)."
+      },
+      {
+        "type": "text",
+        "value": "There are many ways to combine consonants and vowels, but don’t worry about it for now. You will learn it as you go along."
+      },
+      {
+        "type": "heading",
+        "value": "How to type in Hangul"
+      },
+      {
+        "type": "text",
+        "value": "While it is easy to set Korean as a language preference on your computer from your settings (find a useful link at the end of this section), the tricky part is getting to grips with the keyboard layout. Unless you bought your machine in Korea, your keyboard won’t have the Korean characters written on it.  "
+      },
+      {
+        "type": "text",
+        "value": "You can memorize the keyboard layout, but if you need a bit of guidance, you can make your own stickers and paste them on your keyboard. Or you can buy stickers or a keyboard cover like the ones below."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "book": "Book 1",
+    "title": "Lesson 1 : Simple Vowels",
+    "hasSoundButton": false,
+    "content": 
+      [
+        {
+          "type": "pdf",
+          "src": "/assets/Simple-Vowels.pdf"
+        },
+        {
+          "type": "text",
+          "value": [
+            "In this lesson, we will learn about simple vowels in Hangul. There are 10 simple vowels in Hangul. They are:",
+            "ㅏ (a), ㅑ (ya), ㅓ (eo), ㅕ (yeo), ㅗ (o), ㅛ (yo), ㅜ (u), ㅠ (yu), ㅡ (eu), ㅣ (i)"
+          ]
+        },
+        {
+          "type": "image",
+          "src": "/assets/Simple-Vowels.png"
+        },
+        {
+          "type": "quiz",
+          "questions": [
+            {
+              "question": "What sound does this make?",
+              "sound": "ㅏ",
+              "options": ["a", "o", "i"],
+              "answer": "a"
+            },
+            {
+              "question": "What sound does this make?",
+              "sound": "ㅓ",
+              "options": ["du", "deo","eo"],
+              "answer": "eo"
+            },
+            {
+              "question": "What sound does this make?",
+              "sound": "ㅑ",
+              "options": ["yu", "ya", "yo"],
+              "answer": "ya"
+            },
+            {
+              "question": "What sound does this make?",
+              "sound": "ㅕ",
+              "options": ["yeo", "ye", "ya"],
+              "answer": "yeo"
+            },
+            {
+              "question": "What sound does this make?",
+              "sound": "ㅗ",
+              "options": ["u", "yo", "o"],
+              "answer": "o"
+            },
+            {
+              "question": "What sound does this make?",
+              "sound": "ㅛ",
+              "options": ["yu", "yeo", "yo"],
+              "answer": "yo"
+            },
+            {
+              "question": "What sound does this make?",
+              "sound": "ㅜ",
+              "options": ["o", "u", "yu"],
+              "answer": "u"
+            },
+            {
+              "question": "What sound does this make?",
+              "sound": "ㅠ",
+              "options": ["yo", "yu", "ya"],
+              "answer": "yu"
+            },
+            {
+              "question": "What sound does this make?",
+              "sound": "ㅡ",
+              "options": ["eu", "o", "u"],
+              "answer": "eu"
+            },
+            {
+              "question": "What sound does this make?",
+              "sound": "ㅣ",
+              "options": ["u", "e", "i"],
+              "answer": "i"
+            }
+          ]
+        }
+      ]
+  },
+  {
+    "id": 3,
+    "book": "Book 1",
+    "title": "Lesson 2 : Simple Consonants",
+    "content": 
+    [
+      {
+      "type": "pdf",
+      "src": "/assets/Simple-Consonants.pdf"
+      },
+      {
+      "type": "text",
+      "value": [
+        "In this lesson, we will learn about simple consonants in Hangul. There are 14 simple consonants in Hangul. They are:",
+        "ㄱ (g/k), ㄴ (n), ㄷ (d/t), ㄹ (r/l), ㅁ (m), ㅂ (b/p), ㅅ (s), ㅇ (ng), ㅈ (j), ㅊ (ch), ㅋ (k), ㅌ (t), ㅍ (p), ㅎ (h)"
+        ]
+      },
+      {
+      "type": "image",
+      "src": "/assets/Simple-Consonants.png"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "book": "Book 1",
+    "title": "Lesson 3 : Syllable Formation",
+    "hasSoundButton": false,
+    "content": 
+      [
+        {
+        "type": "pdf",
+        "src": "/assets/Syllable-Formation.pdf"
+        },
+        {
+        "type": "text",
+        "value": "Syllable formation in Hangul is quite simple. A syllable is formed by combining a consonant and a vowel. The consonant always comes first, followed by the vowel. If there is no consonant, the vowel is written with the placeholder consonant ㅇ (ng)."
+        },
+        {
+          "type": "list",
+          "value": 
+          [
+            "가 (ga) is formed by combining the consonant 'ㄱ' (g/k) and the vowel 'ㅏ' (a).",
+            "나 (na) is formed by combining the consonant 'ㄴ' (n) and the vowel 'ㅏ' (a).",
+            "다 (da) is formed by combining the consonant 'ㄷ' (d/t) and the vowel 'ㅏ' (a).",
+            "라 (ra) is formed by combining the consonant 'ㄹ' (r/l) and the vowel 'ㅏ' (a).",
+            "etc..."
+          ]
+        },
+        {
+          "type": "image",
+          "src": "/assets/Syllable-Formation-1.png"
+        },
+        {
+          "type": "text",
+          "value": "Try to practice by combining the consonants and vowels to form different syllables!"
+        },
+        {
+          "type": "image",
+          "src": "/assets/Syllable-Formation-2.png"
+        },
+        {
+          "type": "image",
+          "src": "/assets/Syllable-Formation-3.png"
+        },
+        {
+          "type": "quiz",
+          "questions": 
+          [
+            {
+              "question": "What sound does this make?",
+              "sound": "나무",
+              "options": ["no ga", "na mu", "neo ma"],
+              "answer": "na mu",
+              "definition": "Tree"
+            },
+            {
+              "question": "What sound does this make?",
+              "sound": "나비",
+              "options": ["na bi", "na bu", "neo beo"],
+              "answer": "na bi",
+              "definition": "Butterfly"
+            },
+            {
+              "question": "What sound does this make?",
+              "sound": "기차",
+              "options": ["ga cheo", "gi chu", "gi cha"],
+              "answer": "gi cha",
+              "definition": "Train"
+            },
+            {
+              "question": "What sound does this make?",
+              "sound": "모자",
+              "options": ["ma ja", "mo ji", "mo ja"],
+              "answer": "mo ja",
+              "definition": "Hat"
+            },
+            {
+              "question": "What sound does this make?",
+              "sound": "바나나",
+              "options": ["banana", "banunu", "baneoneo"],
+              "answer": "banana",
+              "definition": "Banana"
+            },
+            {
+              "question": "What sound does this make?",
+              "sound": "가수",
+              "options": ["gi sa", "ga su", "go si"],
+              "answer": "ga su",
+              "definition": "Singer"
+            }
+          ]
+        }
+      ]
+  },
+  {
+    "id": 5,
+    "book": "Book 1",
+    "title": "Lesson 4 : Compound Vowels 1",
+    "hasSoundButton": false,
+    "content": 
+      [
+        {
+        "type": "pdf",
+        "src": "/assets/Compound-Vowels-1.pdf"
+        },
+        {
+        "type": "text",
+        "value": "In this lesson, we will learn about compound vowels in Hangul. Compound vowels are formed by combining two simple vowels. There are 11 compound vowels in Hangul. Let's start with the first five: ㅐ (ae), ㅔ (e), ㅒ (yae), ㅖ (ye), ㅢ (ui)."
+        },
+        {
+          "type": "image",
+          "src": "/assets/Compound-Vowels-1.png"
+        }
+      ]
+  },
+  {
+    "id": 6,
+    "book": "Book 1",
+    "title": "Lesson 5 : Compound Vowels 2",
+    "hasSoundButton": false,
+    "content": 
+      [
+        {
+        "type": "pdf",
+        "src": "/assets/Compound-Vowels-2.pdf"
+        },
+        {
+          "type": "text",
+          "value": "In this lesson, we will learn about the remaining compound vowels in Hangul. There are 11 compound vowels in Hangul. These are the last six: ㅘ (wa), ㅙ (wae), ㅚ (oe), ㅝ (wo), ㅞ (we), ㅟ (wi)."
+        },
+        {
+          "type": "image",
+          "src": "/assets/Compound-Vowels-2.png"
+        }
+      ]
+  },
+  {
+    "id": 7,
+    "book": "Book 1",
+    "title": "Lesson 6 : Double Consonants",
+    "hasSoundButton": false,
+    "content": 
+      [
+        {
+        "type": "pdf",
+        "src": "/assets/Double-Consonants.pdf"
+        },
+        {
+          "type": "text",
+          "value": "In this lesson, we will learn about double consonants in Hangul. Double consonants are formed by combining two simple consonants. There are 5 double consonants in Hangul. They are: ㄲ (gg/kk), ㄸ (dd/tt), ㅃ (bb/pp), ㅆ (ss), ㅉ (jj)."
+        },
+        {
+          "type": "text",
+          "value": "Double consonants are pronounced with a stronger emphasis than their single consonant counterparts. For example, ㄱ (g) is pronounced as 'k', while ㄲ (gg) is pronounced as 'gg'."
+        },
+        {
+          "type": "text",
+          "value": "Here are some words with Double Consonants:"
+        },
+        {
+          "type": "image",
+          "src": "/assets/Double-Consonants-Words.png"
+        },
+        {
+          "type": "words",
+          "words": [
+            { "text": "아빠", "sound": "아빠", "definition": "father" },
+            { "text": "까치", "sound": "까치", "definition": "magpie" },
+            { "text": "토끼", "sound": "토끼", "definition": "rabbit" },
+            { "text": "머리띠", "sound": "머리띠", "definition": "headband" },
+            { "text": "쓰레기", "sound": "쓰레기", "definition": "trash" },
+            { "text": "짜다", "sound": "짜다", "definition": "salty" }
+          ]
+        }
+      ]
+  },
+  {
+    "id": 8,
+    "book": "Book 1",
+    "title": "Lesson 7 : Exercise 1",
+    "hasSoundButton": false,
+    "content": [
+      {
+        "type": "quiz",
+        "questions": [
+          {
+            "type": "exercise",
+            "question": "Which sound does this make?",
+            "sound": "아이",
+            "options": ["아이", "오이"],
+            "answer": "아이"
+          },
+          {
+            "type": "exercise",
+            "question": "Which sound does this make?",
+            "sound": "개미",
+            "options": ["개미", "매미"],
+            "answer": "개미"
+          },
+          {
+            "type": "exercise",
+            "question": "Which sound does this make?",
+            "sound": "머리",
+            "options": ["머리", "다리"],
+            "answer": "머리"
+          },
+          {
+            "type": "exercise",
+            "question": "Which sound does this make?",
+            "sound": "사자",
+            "options": ["사과", "사자"],
+            "answer": "사자"
+          },
+          {
+            "type": "exercise",
+            "question": "Which sound does this make?",
+            "sound": "가위",
+            "options": ["가위", "바위"],
+            "answer": "가위"
+          },
+          {
+            "type": "exercise",
+            "question": "Which sound does this make?",
+            "sound": "얘기",
+            "options": ["애기", "얘기"],
+            "answer": "얘기"
+          },
+          {
+            "type": "exercise",
+            "question": "Which sound does this make?",
+            "sound": "돼지",
+            "options": ["대지", "돼지"],
+            "answer": "돼지"
+          },
+          {
+            "type": "exercise",
+            "question": "Which sound does this make?",
+            "sound": "뿌리",
+            "options": ["부리", "뿌리"],
+            "answer": "뿌리"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "book": "Book 1",
+    "title": "Lesson 8 : Final Consonants - Bachim 1",
+    "hasSoundButton": false,
+    "content": 
+      [
+        {
+        "type": "pdf",
+        "src": "/assets/Final-Consonants-1.pdf"
+        }, 
+        {
+        "type": "text",
+        "value": "In this lesson, we will learn about final consonants in Hangul. Final consonants are consonants that appear at the end of a syllable. Let's start with: ㄴ (n), ㅇ (ng), ㅁ (m), ㄹ (r/l),"
+        },
+        {
+        "type": "image",
+        "src": "/assets/Final-Consonants-1.png"
+        },
+        {
+          "type": "image",
+          "src": "/assets/Final-Consonants-2.png"
+        },
+        {
+          "type": "text",
+          "value": "Please listen and repeat to practice!"
+        },
+        {
+          "type": "words",
+          "words": [
+            { "text": "가", "sound": "가"},
+            { "text": "간", "sound": "간"},
+            { "text": "감", "sound": "감"},
+            { "text": "강", "sound": "강"}
+          ]
+        },
+        {
+          "type": "words",
+          "words": [
+            { "text": "소", "sound": "소"},
+            { "text": "손", "sound": "손"},
+            { "text": "솜", "sound": "솜"},
+            { "text": "송", "sound": "송"}
+          ]
+        },
+        {
+          "type": "words",
+          "words": [
+            { "text": "차", "sound": "차"},
+            { "text": "찬", "sound": "찬"},
+            { "text": "참", "sound": "참"},
+            { "text": "창", "sound": "창"}
+          ]
+        },
+        {
+          "type": "words",
+          "words": [
+            { "text": "보", "sound": "보"},
+            { "text": "본", "sound": "본"},
+            { "text": "봄", "sound": "봄"},
+            { "text": "봉", "sound": "봉"}
+          ]
+        },
+        {
+          "type": "text",
+          "value": "Listen carefully and mark the correct answer!"
+        },
+        {
+          "type": "quiz",
+          "questions": [
+            {
+              "type": "exercise",
+              "question": "Which sound does this make?",
+              "sound": "물",
+              "options": ["문", "물"],
+              "answer": "물"
+            },
+            {
+              "type": "exercise",
+              "question": "Which sound does this make?",
+              "sound": "곰",
+              "options": ["곰", "공"],
+              "answer": "곰"
+            },
+            {
+              "type": "exercise",
+              "question": "Which sound does this make?",
+              "sound": "산",
+              "options": ["산", "삼"],
+              "answer": "산"
+            },
+            {
+              "type": "exercise",
+              "question": "Which sound does this make?",
+              "sound": "밤",
+              "options": ["방", "밤"],
+              "answer": "밤"
+            },
+            {
+              "type": "exercise",
+              "question": "Which sound does this make?",
+              "sound": "강",
+              "options": ["강", "간"],
+              "answer": "강"
+            }
+          ]
+        }
+      ]
+  },
+  {
+    "id": 10,
+    "book": "Book 1",
+    "title": "Lesson 9 : Final Consonants - Bachim 2",
+    "hasSoundButton": false,
+    "content": 
+      [
+        {
+        "type": "pdf",
+        "src": "/assets/Final-Consonants-2.pdf"
+        },
+        {
+        "type": "text",
+        "value": "In this lesson, we will learn about the remaining final consonants in Hangul."
+        },
+        {
+          "type": "image",
+          "src": "/assets/Final-Consonants-3.png"
+        },
+        {
+          "type": "image",
+          "src": "/assets/Final-Consonants-4.png"
+        },
+        {
+          "type": "text",
+          "value": "Please listen and repeat to practice!"
+        },
+        {
+          "type": "words",
+          "words": [
+            { "text": "바", "sound": "바"},
+            { "text": "박", "sound": "박"},
+            { "text": "밥", "sound": "밥"},
+            { "text": "밭", "sound": "밭"}
+          ]
+        },
+        {
+          "type": "words",
+          "words": [
+            { "text": "나", "sound": "나"},
+            { "text": "낙", "sound": "낙"},
+            { "text": "납", "sound": "납"},
+            { "text": "낮", "sound": "낮"}
+          ]
+        },
+        {
+          "type": "words",
+          "words": [
+            { "text": "모", "sound": "모"},
+            { "text": "목", "sound": "목"},
+            { "text": "몹", "sound": "몹"},
+            { "text": "못", "sound": "못"}
+          ]
+        },
+        {
+          "type": "words",
+          "words": [
+            { "text": "타", "sound": "타"},
+            { "text": "탁", "sound": "탁"},
+            { "text": "탑", "sound": "탑"},
+            { "text": "탓", "sound": "탓"}
+          ]
+        },
+        {
+          "type": "text",
+          "value": "Listen carefully and mark the correct answer!"
+        },
+        {
+          "type": "quiz",
+          "questions": [
+            {
+              "type": "exercise",
+              "question": "Which sound does this make?",
+              "sound": "꽃",
+              "options": ["꽃", "꽅"],
+              "answer": "꽃"
+            },
+            {
+              "type": "exercise",
+              "question": "Which sound does this make?",
+              "sound": "닫다",
+              "options": ["닦다", "닫다"],
+              "answer": "닫다"
+            },
+            {
+              "type": "exercise",
+              "question": "Which sound does this make?",
+              "sound": "밖",
+              "options": ["밖", "밥"],
+              "answer": "밖"
+            },
+            {
+              "type": "exercise",
+              "question": "Which sound does this make?",
+              "sound": "솥",
+              "options": ["솥", "송"],
+              "answer": "솥"
+            },
+            {
+              "type": "exercise",
+              "question": "Which sound does this make?",
+              "sound": "숲",
+              "options": ["숯", "숲"],
+              "answer": "숲"
+            }
+          ]
+        }
+      ]
+  },
+  {
+    "id": 11,
+    "book": "Book 1",
+    "title": "Lesson 10 : Exercise 2",
+    "hasSoundButton": false,
+    "content": 
+      [
+        {
+          "type": "quiz",
+          "questions": [
+            {
+              "type": "exercise",
+              "question": "Which sound does this make?",
+              "sound": "사요",
+              "options": ["사요", "자요"],
+              "answer": "사요"
+            },
+            {
+              "type": "exercise",
+              "question": "Which sound does this make?",
+              "sound": "고리",
+              "options": ["고리", "꼬리"],
+              "answer": "고리"
+            },
+            {
+              "type": "exercise",
+              "question": "Which sound does this make?",
+              "sound": "콩",
+              "options": ["공", "콩"],
+              "answer": "콩"
+            },
+            {
+              "type": "exercise",
+              "question": "Which sound does this make?",
+              "sound": "켜요",
+              "options": ["꺼요", "켜요"],
+              "answer": "켜요"
+            },
+            {
+              "type": "exercise",
+              "question": "Which sound does this make?",
+              "sound": "빵",
+              "options": ["방", "빵"],
+              "answer": "빵"
+            },
+            {
+              "type": "exercise",
+              "question": "Which sound does this make?",
+              "sound": "물",
+              "options": ["물", "문"],
+              "answer": "물"
+            },
+            {
+              "type": "exercise",
+              "question": "Which sound does this make?",
+              "sound": "털어요",
+              "options": ["털어요", "틀어요"],
+              "answer": "털어요"
+            },
+            {
+              "type": "exercise",
+              "question": "Which sound does this make?",
+              "sound": "코피",
+              "options": ["커피", "코피"],
+              "answer": "코피"
+            },
+            {
+              "type": "exercise",
+              "question": "Which sound does this make?",
+              "sound": "의사",
+              "options": ["의사", "이사"],
+              "answer": "의사"
+            },
+            {
+              "type": "exercise",
+              "question": "Which sound does this make?",
+              "sound": "밥",
+              "options": ["밥", "밖"],
+              "answer": "밥"
+            }
+          ]
+        }
+      ]
+  },
+  {
+    "id": 12,
+    "book": "Book 2",
+    "title": "Lesson 1 : 워싱턴에서 살아요 I live in Washington",
+    "hasSoundButton": false,
+    "content": 
+      [
+        {
+        "type": "",
+        "value": ""
+        }
+      ]
+  },
+  {
+    "id": 13,
+    "book": "Book 2",
+    "title": "Lesson 2 : 우리 엄마예요 This is my mom",
+    "hasSoundButton": false,
+    "content": 
+      [
+        {
+        "type": "",
+        "value": ""
+        }
+      ]
+  },
+  {
+    "id": 14,
+    "book": "Book 2",
+    "title": "Lesson 3 : 어디에 가요? Where are you going?",
+    "hasSoundButton": false,
+    "content": 
+      [
+        {
+        "type": "",
+        "value": ""
+        }
+      ]
+  },
+  {
+    "id": 15,
+    "book": "Book 2",
+    "title": "Lesson 4 : 책을 읽어요 I’m reading a book",
+    "hasSoundButton": false,
+    "content": 
+      [
+        {
+        "type": "",
+        "value": ""
+        }
+      ]
+  },
+  {
+    "id": 16,
+    "book": "Book 2",
+    "title": "Lesson 5 : 우유가 좋아요 I like milk",
+    "hasSoundButton": false,
+    "content": 
+      [
+        {
+        "type": "",
+        "value": ""
+        }
+      ]
+  },
+  {
+    "id": 17,
+    "book": "Book 2",
+    "title": "Lesson 6 : 불고기를 좋아해요 I like bulgogi",
+    "hasSoundButton": false,
+    "content": 
+      [
+        {
+        "type": "",
+        "value": ""
+        }
+      ]
+  },
+  {
+    "id": 18,
+    "book": "Book 2",
+    "title": "Lesson 7 : 누가 노래해요? Who is singing?",
+    "hasSoundButton": false,
+    "content": 
+      [
+        {
+        "type": "",
+        "value": ""
+        }
+      ]
+  },
+  {
+    "id": 19,
+    "book": "Book 2",
+    "title": "Lesson 8 : 언제 수영해요? When do you go swimming?",
+    "hasSoundButton": false,
+    "content": 
+      [
+        {
+        "type": "",
+        "value": ""
+        }
+      ]
+  },
+  {
+    "id": 20,
+    "book": "Book 2",
+    "title": "Lesson 9 : 장난감 기차가 있어요? Do you have a toy train?",
+    "hasSoundButton": false,
+    "content": 
+      [
+        {
+        "type": "",
+        "value": ""
+        }
+      ]
+  },
+  {
+    "id": 21,
+    "book": "Book 2",
+    "title": "Lesson 10 : 제 책이에요 It is my book",
+    "hasSoundButton": false,
+    "content": 
+      [
+        {
+        "type": "",
+        "value": ""
+        }
+      ]
+  },
+  {
+    "id": 22,
+    "book": "Book 2",
+    "title": "Lesson 11 : 치마가 아니에요 This is not a skirt",
+    "hasSoundButton": false,
+    "content": 
+      [
+        {
+        "type": "",
+        "value": ""
+        }
+      ]
+  },
+  {
+    "id": 23,
+    "book": "Book 2",
+    "title": "Lesson 12 : 놀이터에서 그네를 타요 I ride on a swing in the playground",
+    "hasSoundButton": false,
+    "content": 
+      [
+        {
+        "type": "",
+        "value": ""
+        }
+      ]
+  },
+  {
+    "id": 24,
+    "book": "Book 2",
+    "title": "Lesson 13 : 일, 이, 삼, 사 One, two, three, four",
+    "hasSoundButton": false,
+    "content": 
+      [
+        {
+        "type": "",
+        "value": ""
+        }
+      ]
+  },
+  {
+    "id": 25,
+    "book": "Book 2",
+    "title": "Lesson 14 : 하나, 둘, 셋, 넷 One, two, three, four",
+    "hasSoundButton": false,
+    "content": 
+      [
+        {
+        "type": "",
+        "value": ""
+        }
+      ]
+  },
+  {
+    "id": 26,
+    "book": "Book 2",
+    "title": "Lesson 15 : 아빠, 엄마, 사랑해요 I love you, mom and dad",
+    "hasSoundButton": false,
+    "content": 
+      [
+        {
+        "type": "",
+        "value": ""
+        }
+      ]
+  },
+  {
+    "id": 27,
+    "book": "Book 2",
+    "title": "Lesson 15 : 고맙습니다 Thank you",
+    "hasSoundButton": false,
+    "content": 
+      [
+        {
+        "type": "",
+        "value": ""
+        }
+      ]
+  }
+]

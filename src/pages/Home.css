@@ -1,0 +1,311 @@
+.home-container, body {
+  font-family: 'Lato', sans-serif;
+  padding-top: 80px; 
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.hero-banner {
+  text-align: center;
+  background-image: url('/assets/korean-alphabet.jpeg');
+  background-size: cover;
+  background-position: center;
+  padding: 2rem;
+  border-radius: 8px;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+.hero-banner h1 {
+  font-family: "Cute Font", sans-serif;
+  font-size: 5rem; 
+  color: #c72d2d;
+  border-radius: 5px;
+  margin: 5px;
+  word-wrap: break-word;
+  width: 100%;
+  max-width: 800px; 
+}
+
+.hero-banner p {
+  font-size: 3rem;
+  margin-top: 1rem;
+  font-family: "Cute Font", sans-serif;
+  font-weight: bold;
+  color: #c72d2d;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+
+.benefits-section {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.benefits-section h2 {
+  font-family: "Cute Font", sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.benefits-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 1rem;
+  width: 30%;
+  min-width: 250px;
+}
+
+.card h3 {
+  font-family: "Cute Font", sans-serif;
+  font-size: 1.75rem;
+}
+
+.card p {
+  font-size: 1.2rem;
+}
+
+.culture {
+  text-align: center;
+}
+
+.culture h2 {
+  font-family: "Cute Font", sans-serif;
+  font-size: 2.5rem;
+  margin-top: 4rem;
+  margin-bottom: 0rem;
+}
+
+.culture-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.culture-card {
+  flex: 1;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin:1.5rem;
+  text-align: center;
+  max-width: 100%; 
+  box-sizing: border-box; 
+  border: 2px solid #ebdddd;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.culture-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.culture-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.culture-card h3 {
+  font-family: "Cute Font", sans-serif;
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+}
+
+.culture-card p {
+  font-family: "Lato", sans-serif;
+  font-size: 1.25rem;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+.culture-card a {
+  padding: 0.75rem 1.5rem;
+  background-color: #235391;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: "Cute Font", sans-serif;
+  font-size: 1.25rem;
+}
+
+.culture-card a:hover {
+  background-color: #0056b3;
+}
+
+.footer {
+  background-color: #f1f1f1;
+  padding: 1rem 0;
+  padding-left: 0;
+  padding-right: 0;
+  overflow: hidden;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  border-top: 1px solid #ebdddd;
+  width: 100%; 
+  box-sizing: border-box;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-logo {
+  flex: 1 1 100%;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.footer-logo h2 {
+  font-family: "Cute Font", sans-serif;
+  font-size: 2.5rem;
+  margin: 0.5rem;
+}
+
+.footer-logo p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.footer-logo button{
+  padding: 0.5rem 1.2rem;
+  background-color: #ffdd57;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Cute Font", sans-serif;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.footer-logo button:hover {
+  background-color: #ffc107;
+}
+
+.footer-links {
+  flex: 1 1 100%;
+  display: flex;
+  justify-content: space-around;
+  text-align:center;
+  margin-top:0px;
+}
+
+.footer-column {
+  flex: 1;
+  padding: 0 1rem;
+}
+
+.footer-column h3 {
+  font-family: "Cute Font", sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-column ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+  text-decoration: underline;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.social-icons li {
+  margin: 0 0.5rem;
+}
+
+.social-icons li a {
+  color: #333;
+  font-size: 1.5rem;
+}
+
+.footer-bottom {
+  margin-top: 1rem;
+  font-size: 0.875rem;
+  color: #666;
+  border-top: 1px solid #ebdddd;
+  padding-top: 1rem;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .hero-banner h1 {
+      font-size: 3rem;
+  }
+
+  .hero-banner p {
+      font-size: 1.5rem;
+  }
+
+  .benefits-cards{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 0;
+  }
+
+  .benefits-cards, .culture-cards {
+      flex-direction: column;
+  }
+
+  .card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    min-width: 200px;
+  }
+
+  .culture-card {
+      width: 100%;
+      margin: 0.5rem 0;
+  }
+
+  .social-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+  }
+}

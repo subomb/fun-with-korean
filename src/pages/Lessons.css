@@ -1,0 +1,79 @@
+.lessons-container {
+  padding: 2rem;
+  padding-top: 80px;
+}
+
+.lessons-level {
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.lessons-level h2 {
+  font-size: 1.5rem;
+  color: #007bff;
+}
+
+.lessons-level ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.lessons-level ul li {
+  background: #f5f5f5;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.lesson-item input {
+  margin-right: 10px;
+}
+
+.lesson-item span {
+  cursor: pointer;
+}
+
+.lessons-level.blurred::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgb(248, 232, 232);
+  z-index: 1;
+  border-radius: 5px;
+}
+
+.sign-in-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.sign-in-button {
+  padding: 0.5rem 1rem;
+  background-color: #235391;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Cute Font", sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.sign-in-button:hover {
+  color: #ffdd57;
+}
+
