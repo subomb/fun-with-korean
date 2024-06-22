@@ -74,7 +74,8 @@ You can access the deployed application at [Fun With Korean](https://fun-with-ko
 
 Here is a video walkthrough of the website to showcase the features and functionality. 
 
-https://github.com/subomb/fun-with-korean/assets/119646112/6ba5e8a1-0175-4c31-9e35-a1b04f2a4da8
+https://github.com/subomb/fun-with-korean/assets/119646112/46d60366-bcfb-4e84-887a-7fe7976221c4
+
 
 Contributing
 ------------
